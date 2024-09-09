@@ -62,3 +62,4 @@ function IfPalindrome(name){
 //Output
 console.log(IfPalindrome(name));
 console.log("~~~~~~~~~~~~~~~~~");
+
