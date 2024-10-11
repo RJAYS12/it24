@@ -377,18 +377,3 @@ article .icon {
     justify-content:center;
     width: 10rem;
 }
-#map {
-    height: 600px;
-}
-.applet-3{
-    margin-left: 3rem;
-    margin-top: 2rem;
-    border: 2px solid rgb(27, 27, 27);
-    text-align: center;
-    justify-content: center;
-    margin: 10px;
-    padding: 10px;
-  }
-  .cardContainer{
-    align-self: center;
-  }
