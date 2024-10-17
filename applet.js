@@ -1,3 +1,4 @@
+
 class AppletGallery {
 
     constructor(dataUrl) {
@@ -27,7 +28,7 @@ class AppletGallery {
                <img src = "${applet.Image}" class="card-img-top image" alt="${applet.Applet_No}">
                     <h5> ${applet.Applet_No} </h5>
                     <p> ${applet.Description}</p>
-                    <a href = "${applet.file}" class = "btn btn-primary">Go to Applet </a>  
+                    <a href = "${applet.file}" class = "btn btn-primary" style="margin: auto; margin-bottom: 1rem; magin-top: 1rem;">Go to Applet </a>  
             </div>`
         ).join('');
     }
@@ -47,3 +48,4 @@ class AppletGallery {
         this.renderAppletGallery(filteredapplet);
     }
 }
+const appletgallery = new AppletGallery('applet.json');
