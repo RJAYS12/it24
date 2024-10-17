@@ -394,3 +394,13 @@ article .icon {
 .cardContainer{
     width:20rem
 }
+.input-search{
+    
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width:50%;
+}
+.cont{
+    text-align: center;
+}
