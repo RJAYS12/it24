@@ -37,9 +37,10 @@ class WeatherApp {
 
         this.weatherCard.style.display = 'block';
     }
+}
 
-}    
 class WeatherService extends WeatherApp {
+
     async fetchWeather() {
         const apiKey = this.apiKeyInput.value;
         const city = this.cityInput.value;
@@ -54,6 +55,7 @@ class WeatherService extends WeatherApp {
             alert('Please enter a city name.');
         }
     }
+
     async fetchWeatherByLocation() {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(
@@ -76,6 +78,7 @@ class WeatherService extends WeatherApp {
             alert('Geolocation is not supported by this browser.');
         }
     }
+
     async getWeatherData(city, apiKey) {
         try {
             const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`);
@@ -87,6 +90,7 @@ class WeatherService extends WeatherApp {
         }
         return null;
     }
+
     async getWeatherDataByCoordinates(latitude, longitude, apiKey) {
         try {
             const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`);
@@ -99,4 +103,6 @@ class WeatherService extends WeatherApp {
         return null;
     }
 }
+
+
 const weatherApp = new WeatherService();
