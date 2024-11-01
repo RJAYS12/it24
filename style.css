@@ -429,3 +429,33 @@ article .icon {
 .cont{
     text-align: center;
 }
+/* Open Weather */
+.applet-container{
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.input-search{
+  margin-left: 3rem;
+  margin-top: 2rem;
+  width:50%;
+}
+
+.weather-card{
+  background: #343434;
+}
+
+.modal-footer {
+  display: flex; 
+  justify-content: center; 
+  padding: 1rem; 
+}
+.btn-success{
+    width: 13rem;
+}
+.card text-white{
+
+    display: flex; 
+    padding: 3rem; 
+    background-color: rgb(63, 63, 63);
+}
