@@ -453,9 +453,8 @@ article .icon {
 .btn-success{
     width: 13rem;
 }
-.card text-white{
-
-    display: flex; 
-    padding: 3rem; 
-    background-color: rgb(63, 63, 63);
+/* To Do List */
+.completed{
+    text-decoration: line-through;
+    color: gray;
 }

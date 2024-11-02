@@ -28,5 +28,11 @@
       "Description": "This contains the details of weather based on the specific location",
       "file": "applet-5.html",
       "Image": "https://i.pinimg.com/originals/13/fe/c7/13fec72339fe314355219ab8cf88503e.gif"
+     },
+     {
+      "Applet_No": "Applet 6 - To-Do list",
+      "Description": "This contains the list of the specific task based on the user's input.",
+      "file": "applet-6.html",
+      "Image": "https://i.pinimg.com/originals/e2/ea/85/e2ea8542d1ae1b4c96d933bf9396417b.gif"
      }
   ]
