@@ -5,3 +5,7 @@ function toggleMenu(){
     icon.classList.toggle("open");
 
 }
+function showAlert() {
+    var textbox = document.getElementById('textbox');
+    alert("Hello " + textbox.value);
+}
