@@ -69,15 +69,16 @@
         <button class="btn btn-primary" onclick="showAlert()">Display Alert</button>
 
         <script>
-            function updateDisplay(){
-                var textbox = document.getElementById('textbox');
-            }
+            function updateDisplay() {
+    var textbox = document.getElementById('textbox');
+    var displayText = document.getElementById('displayText');
+    displayText.textContent = textbox.value;
+}
 
-            function showAlert(){
-                alert("Hellooooooo");
-                var textbox =getElementById('textbox');
-                alert("Hellooooooo " + textbox.value);
-            }
+function showAlert() {
+    var textbox = document.getElementById('textbox');
+    alert("Hello " + textbox.value);
+}
         </script>
 
 </body>
